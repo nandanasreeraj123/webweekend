@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: rgb(211, 22, 60);
+}
+/* p{
+    color: darkmagenta;
+} */
+.paracolor{
+    color: darkorange;
+}
+
+body{
+    /* background-image: url("pt.jpg"); */
+    background-color: yellow;
+}
+.mar-pad{
+    background-color: violet;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 4%;
+    margin-bottom: 9%;
+    padding-left: 6%;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    padding-right: 3%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.strawberry{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+table{
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid  black;
+}
+.pt{
+    background-color: turquoise;
+    padding: 5%;
+}
+.flexes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bn{
+    background-color: steelblue;
+    color: white;
+    padding: 0.8%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
